@@ -1,0 +1,11 @@
+# Relative to this YAML file. Provide your own annotated images; none are bundled.
+path: .
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: knife
+  1: gun
+  2: masked_face
+  3: helmet
+  4: balaclava

@@ -1,0 +1,35 @@
+# Python / local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Model weights and exported engines
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+models/
+runs/
+
+# Captured images and review evidence
+raw_samples/
+event_data/
+counts.json
+*.jsonl
+*.log
+
+# Local dataset; keep the example class mapping
+dataset/*
+!dataset/data.yaml
+
+# Temporary/backup files and credentials
+tmp*/
+backup*/
+.env
+.env.*
+!.env.example
+Thumbs.db
+.DS_Store
